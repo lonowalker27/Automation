@@ -103,8 +103,7 @@
 		</style>
 	</head>
 	<body>
-			<h1>ENERGY SAVED = ENERGY GENERATED</h1>
-		<h3>E=mc<sup>2</sup></h3>
+			<h1><span style="color: #6faf67">ENERGY SAVED</span> = <span style="color: #FC4F4F">ENERGY GENERATED</span></h1>
 			<br>
 
 			<div style="font-weight: 500;font-size: 18px; color: #333333; font-family: 'Source Sans Pro', sans-serif;">  
@@ -183,11 +182,11 @@
 						var myObj = JSON.parse(this.responseText);
 						if (myObj.field1 == 1) {
 							document.getElementById("LIGHTState").innerHTML = "ON";
-							document.getElementById("LightImage").src=" https://raw.githubusercontent.com/lonowalker27/Automation-/main/img/on.png";
+							document.getElementById("LightImage").src="https://raw.githubusercontent.com/lonowalker27/Automation-/main/img/on.png";
 						}
 						else {
 							document.getElementById("LIGHTState").innerHTML = "OFF";
-							document.getElementById("LightImage").src="https://raw.githubusercontent.com/lonowalker27/Automation-/main/img/off.png";
+							document.getElementById("LightImage").src=" https://raw.githubusercontent.com/lonowalker27/Automation-/main/img/off.png";
 						}
 					}
 				};
